@@ -23,10 +23,10 @@ module.exports = {
                 header: ['"IBM Plex Sans"', '"Roboto"', 'system-ui', 'sans-serif'],
             },
             colors: {
-                black: '#131a20',
+                black: '#0a0a0a',
                 // "primary" and "neutral" are deprecated, prefer the use of "blue" and "gray"
                 // in new code.
-                primary: colors.blue,
+                primary: colors.yellow,
                 orange: colors.orange,
                 gray: gray,
                 neutral: gray,
@@ -39,9 +39,9 @@ module.exports = {
                     400: colors.neutral[400],
                     500: colors.neutral[500],
                     600: colors.neutral[600],
-                    700: '#17171B',
-                    800: '#212121',
-                    900: '#121212',
+                    700: '#1c1c1c',
+                    800: '#141414',
+                    900: '#000000',
                 }
             },
             fontSize: {
