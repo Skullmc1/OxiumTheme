@@ -3,7 +3,9 @@ import { createGlobalStyle } from 'styled-components/macro';
 
 export default createGlobalStyle`
     body {
-        ${tw`font-sans bg-neutral-800 text-neutral-200`};
+        ${tw`font-sans text-neutral-200`};
+        background: radial-gradient(circle at top left, #1a1a2e, #16213e, #0f3460);
+        background-attachment: fixed;
         letter-spacing: 0.015em;
     }
 

@@ -64,7 +64,7 @@ export default () => {
     };
 
     return (
-        <div className={'bg-neutral-700 shadow-md overflow-x-auto topbar'}>
+        <div className={'bg-neutral-900 bg-opacity-80 backdrop-filter backdrop-blur-md shadow-md overflow-x-auto topbar border-b border-white border-opacity-5'}>
             <SpinnerOverlay visible={isLoggingOut} />
             <div className={'mx-auto w-full flex items-center h-[3.5rem] max-w-[1200px]'}>
                 {showSidebar && (
